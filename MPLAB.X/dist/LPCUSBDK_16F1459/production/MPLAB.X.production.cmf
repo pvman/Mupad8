@@ -1,0 +1,1646 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+end_init CODE 0 6 6 2 2
+reset_vec CODE 0 0 0 2 2
+config CONFIG 0 8007 8007 2 2
+$dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+intentry CODE 0 4 4 2 2
+swtext4 CONST 0 8EA 8EA C 2
+swtext3 CONST 0 B8A B8A 46 2
+text22 CODE 0 B42 B42 48 2
+swtext2 CONST 0 800 800 EA 2
+text11 CODE 0 A67 A67 78 2
+text10 CODE 0 ADF ADF 63 2
+text9 CODE 0 BD0 BD0 42 2
+swtext1 CONST 0 7E4 7E4 1A 2
+text4 CODE 0 9C6 9C6 A1 2
+text3 CODE 0 EA5 EA5 15B 2
+cstackBANK0 BANK0 1 60 60 E 1
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK3 BANK3 1 1E1 1E1 1 1
+inittext CODE 0 C2A C2A 6 2
+clrtext CODE 0 C24 C24 6 2
+bssBANK6 BANK6 1 320 320 40 1
+bssBANK5 BANK5 1 2A0 2A0 40 1
+bssBANK4 BANK4 1 220 220 40 1
+dataBANK3 BANK3 1 1CF 1CF 12 1
+bssBANK3 BANK3 1 1A0 1A0 2F 1
+bssBANK2 BANK2 1 160 160 10 1
+bssBANK1 BANK1 1 E0 E0 10 1
+bssBANK0 BANK0 1 6E 6E 2 1
+cinit CODE 0 8 8 7DC 2
+strings STRING 0 900 900 C6 2
+idataBANK3 CODE 0 C12 C12 12 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK10 00520-0056F 1
+BANK11 005A0-005EF 1
+BANK12 00620-0064F 1
+BANK3 001E2-001EF 1
+BANK4 00260-0026F 1
+BANK5 002E0-002EF 1
+BANK6 00360-0036F 1
+BANK7 003A0-003EF 1
+BANK8 00420-0046F 1
+BANK9 004A0-004EF 1
+BIGRAM 02000-023EF 1
+CODE 00002-00003 2
+CODE 007FE-007FF 2
+CODE 008F6-008FF 2
+CODE 00C30-00EA4 2
+CODE 01000-01FFF 2
+CONST 00002-00003 2
+CONST 007FE-007FF 2
+CONST 008F6-008FF 2
+CONST 00C30-00EA4 2
+CONST 01000-01FFF 2
+ENTRY 00002-00003 2
+ENTRY 007FE-007FF 2
+ENTRY 008F6-008FF 2
+ENTRY 00C30-00EA4 2
+ENTRY 01000-01FFF 2
+IDLOC 08000-08003 2
+RAM 001E2-001EF 1
+RAM 00260-0026F 1
+RAM 002E0-002EF 1
+RAM 00360-0036F 1
+RAM 003A0-003EF 1
+RAM 00420-0046F 1
+RAM 004A0-004EF 1
+RAM 00520-0056F 1
+RAM 005A0-005EF 1
+RAM 00620-0064F 1
+SFR0 00000-0001F 1
+SFR1 00080-0009F 1
+SFR10 00500-0051F 1
+SFR11 00580-0059F 1
+SFR12 00600-0061F 1
+SFR13 00680-006EF 1
+SFR14 00700-0076F 1
+SFR15 00780-007EF 1
+SFR16 00800-0086F 1
+SFR17 00880-008EF 1
+SFR18 00900-0096F 1
+SFR19 00980-009EF 1
+SFR2 00100-0011F 1
+SFR20 00A00-00A6F 1
+SFR21 00A80-00AEF 1
+SFR22 00B00-00B6F 1
+SFR23 00B80-00BEF 1
+SFR24 00C00-00C6F 1
+SFR25 00C80-00CEF 1
+SFR26 00D00-00D6F 1
+SFR27 00D80-00DEF 1
+SFR28 00E00-00E6F 1
+SFR29 00E80-00EEF 1
+SFR3 00180-0019F 1
+SFR30 00F00-00F6F 1
+SFR31 00F80-00FEF 1
+SFR4 00200-0021F 1
+SFR5 00280-0029F 1
+SFR6 00300-0031F 1
+SFR7 00380-0039F 1
+SFR8 00400-0041F 1
+SFR9 00480-0049F 1
+STRCODE 00002-00003 2
+STRCODE 007FE-007FF 2
+STRCODE 008F6-008FF 2
+STRCODE 00C30-00EA4 2
+STRCODE 01000-01FFF 2
+STRING 00002-00003 2
+STRING 007FE-007FF 2
+STRING 008F6-008FF 2
+STRING 00C30-00EA4 2
+STRING 01000-01FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":64 0 text51 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":68 0 text50 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":73 0 text49 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":77 0 text48 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":85 0 text47 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":90 0 text46 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":94 0 text45 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":98 0 text44 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":104 0 text43 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":114 0 text42 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/pic16f1459/system.c":112 4 intentry CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/pic16f1459/system.c":116 5 intentry CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":44 8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":53 48 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":55 4B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":75 4D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":82 4F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":92 54 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":99 57 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":91 5A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":102 5A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":92 5D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":91 5E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":92 5F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":93 66 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":94 6A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":107 6E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":112 74 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":116 78 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":118 7C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":119 7F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":128 83 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":134 85 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":139 89 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":142 90 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":151 92 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":160 9E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":142 AA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":144 AF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":142 BC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":165 BD cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":170 C0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":174 C5 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":128 C6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":175 C6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":129 CA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":131 D1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":132 D4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":67 D6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":134 E7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":138 EB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":70 EE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":71 EF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":72 FB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":139 107 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":58 10A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":59 10D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":60 10F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":61 110 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":62 111 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":63 112 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":141 114 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":144 115 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":70 118 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":71 119 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":72 125 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":145 131 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":58 134 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":59 137 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":60 139 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":61 13A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":62 13B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":63 13C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":147 13E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":76 13F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":150 143 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":70 145 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":71 146 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":72 152 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":151 15E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":58 161 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":59 164 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":60 166 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":61 167 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":62 168 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":63 169 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":153 16B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":156 16C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":70 16E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":71 16F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":72 17B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":88 187 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":89 18C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":158 18D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":58 190 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":59 193 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":60 195 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":61 196 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":62 197 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":63 198 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":160 19A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":93 19B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":163 19F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":82 1A8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":83 1B0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":84 1B7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":167 1B8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":97 1B9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":108 1BB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":109 1BC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":110 1C5 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":111 1CC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":112 1CD cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":113 1D8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":167 1DD cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":168 1E9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":136 1EA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":171 1F5 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":172 1FB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":173 1FF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":174 203 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":35 204 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":36 206 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":37 208 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":38 209 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":40 20A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":42 20C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":43 20D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":44 20F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":46 210 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":47 212 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":49 214 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":50 215 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":51 216 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":52 217 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":53 21B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":54 21D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":55 21F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/buttons.c":56 220 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/buttons.c":57 221 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/buttons.c":60 222 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/buttons.c":63 227 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/buttons.c":57 228 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/buttons.c":67 230 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":812 231 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":822 235 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":823 236 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":826 238 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":827 239 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":828 23D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":837 245 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":840 252 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":543 253 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":544 254 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":546 255 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":552 266 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":553 26D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":558 271 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":559 276 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":558 283 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":565 285 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":569 28F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":571 290 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":639 291 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":641 296 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":644 2A4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/pic16f1459/system.c":87 2A5 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/pic16f1459/system.c":88 2A6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/pic16f1459/system.c":94 2B0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/pic16f1459/system.c":95 2B3 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/pic16f1459/system.c":97 2B6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/pic16f1459/system.c":98 2B9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/pic16f1459/system.c":107 2BB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":304 2BC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":307 2BE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":310 2C0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":313 2C1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":315 2C2 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":317 2D4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":326 2DB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":328 2DC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":326 2E7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":332 2EC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":335 2EE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":338 2EF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":341 2F0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":346 2F1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":348 2F2 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":349 2F4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":350 2F6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":351 2F8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":355 2FB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":356 2FE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":358 2FF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":359 300 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":360 301 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":364 303 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":366 304 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":367 309 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":368 30F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":369 313 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":364 316 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":369 317 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":364 318 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":373 31C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":375 31F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":377 322 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":378 329 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":379 32B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":380 32D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":383 32E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":386 330 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":389 332 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":390 334 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":585 335 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":588 339 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":591 33B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":595 33C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":598 342 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":601 346 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":609 349 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":620 34C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":627 34F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":631 350 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":633 351 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":634 352 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":635 353 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":653 356 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":655 35A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":659 35B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":666 35D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":668 360 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":669 362 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":682 363 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":684 366 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":690 368 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":700 36A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":706 36C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":713 36F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":727 371 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":730 374 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":732 376 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":734 382 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":737 384 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":754 386 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":756 389 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":763 38A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":765 38D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":770 38F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":772 393 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":775 395 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":777 398 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":778 3A4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":793 3A6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":802 3AB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":804 3AE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":806 3B0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":809 3B3 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":810 3B6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":812 3BE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":817 3C0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":819 3C3 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":823 3C7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":829 3CE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":831 3D1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":832 3D3 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":835 3D4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":804 3E0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":846 3E7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2289 3E7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2290 3E8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2293 3E9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2296 3EA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2304 3EB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2296 3EC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2297 3EE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2304 3EF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2305 3F7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2324 3F7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2330 3F8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2324 3F9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2330 3FA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2337 404 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2342 406 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2360 407 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2363 409 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2360 40A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2366 40B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2368 40D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2496 40E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2497 410 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2498 412 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2499 414 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2500 415 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2501 417 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2510 419 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2511 41B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2510 41C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2511 41E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2512 41F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2513 421 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2512 422 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2513 423 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2514 424 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2516 428 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2517 42A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2518 42C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2519 42E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2525 430 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2526 432 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2539 43C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2540 43E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2713 43E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2715 444 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2758 44E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2718 44F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2719 450 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2718 451 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2719 452 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2721 453 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2723 454 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2726 456 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2729 458 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2730 45D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2731 45E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2732 460 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2733 461 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2735 462 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2739 464 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2742 465 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2748 46B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2749 46D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2750 475 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2752 476 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2758 47E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2825 47E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2827 485 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2828 487 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2829 48C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2831 490 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2838 492 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2842 4AB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2845 4AC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2847 4AF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2848 4B7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2852 4BC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2853 4C3 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2860 4CB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2862 4CD cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2863 4CE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2866 4CF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2872 4D0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2874 4D2 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2878 4D9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2882 4E0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2884 4E4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2888 4E9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2890 4EB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2894 4EF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2899 4F6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2900 4FA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2901 4FD cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2907 4FE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2909 500 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2913 503 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2909 504 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2913 506 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2914 508 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2915 509 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2914 50A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2915 50B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2916 515 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2920 516 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2925 519 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2931 51C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2933 523 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2935 525 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2939 529 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2942 530 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2945 535 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2946 540 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2950 541 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2998 546 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":3002 552 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":3005 557 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":109 558 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":117 560 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":133 561 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":142 562 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":109 564 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":155 576 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":62 577 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":65 578 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":66 579 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":65 57A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":66 57B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":68 57C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":67 57D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":68 57E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":70 583 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":71 585 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":354 586 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":357 58B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":354 58C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":355 58D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":356 58E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":357 58F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":359 590 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":372 591 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":359 592 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":372 593 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":373 597 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":375 59C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":376 5A6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":403 5A8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":404 5AA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":903 5AB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":905 5AE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":907 5B1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":909 5B3 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":918 5B7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":920 5C1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":921 5C9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1568 5CA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1569 5CD cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1571 5D7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1576 5DB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1578 5DE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1582 5E4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1586 5EA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1587 5EE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1604 5F2 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":902 5F3 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":913 605 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":914 609 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":919 60A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":928 60D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":930 611 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":932 61A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":933 61D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":934 61E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":939 620 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":940 625 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":942 627 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":947 629 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":949 62A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":951 62D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":952 62F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":956 633 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":957 63C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":958 63D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":959 640 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":954 641 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":966 645 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":967 64E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":968 64F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":969 652 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":964 653 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":977 656 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":979 65A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":980 65E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":982 660 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":984 663 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":989 66E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1019 66F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1022 673 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1027 678 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1032 67F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1034 681 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1048 682 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1049 68F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1050 693 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1051 697 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1052 69A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1055 69D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1058 6A0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1063 6A4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1065 6AB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1066 6AC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":3059 6AD cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":3061 6B0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":3063 6B1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":3065 6B2 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":3068 6B4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2233 6B5 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2236 6B7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2239 6C6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2240 6CB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2242 6CE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2245 6D0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2246 6D1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1442 6D2 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1444 6D6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1445 6D8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1447 6DB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1451 6DC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1453 6E1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1454 6E5 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1455 6E9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1456 6EC cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1457 6ED cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1459 6EF cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1464 6F1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1465 6F7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1466 701 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1467 705 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1468 708 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1472 70B cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1473 710 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1474 71A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1478 71F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2397 71F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2401 721 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2405 726 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2413 72D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2415 72E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2418 730 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2426 739 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2428 73A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2429 74C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2426 754 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2431 759 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2434 764 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2439 765 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2442 767 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2446 76E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":170 770 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2449 770 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":171 771 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":174 772 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":175 774 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":171 775 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":180 77D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/buttons.c":86 77E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/buttons.c":87 77F cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/buttons.c":95 786 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":79 787 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":81 78A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":90 78C cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":92 791 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":93 794 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":94 795 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":96 79A cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":97 79D cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":98 79E cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":100 7A5 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":107 7A8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":109 7AD cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":110 7B0 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":111 7B1 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":113 7B6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":114 7B9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":115 7BA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":85 7BE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":123 7C4 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_led_usb_status.c":124 7C8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":83 7C9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":84 7CA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":87 7CB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":88 7CD cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":84 7CE cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":93 7D6 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":54 7D7 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":55 7D8 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":58 7D9 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":59 7DA cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":55 7DB cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/bsp/pic16f1459/leds.c":64 7E3 cinit CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2715 7E4 swtext1 CONST
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/main.c":109 800 swtext2 CONST
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/scan.c":136 8EA swtext4 CONST
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":44 900 strings STRING
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/usb_descriptors.c":300 901 strings STRING
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/usb_descriptors.c":295 904 strings STRING
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/usb_descriptors.c":180 905 strings STRING
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/usb_descriptors.c":270 948 strings STRING
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/usb_descriptors.c":277 97C strings STRING
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/usb_descriptors.c":161 9B0 strings STRING
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/usb_descriptors.c":266 9C2 strings STRING
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2565 9C6 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2567 9CB text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2573 9CC text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2580 9CD text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2582 9D1 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2583 9D7 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2584 9E1 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2585 9E5 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2586 9E8 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2589 9E9 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2592 9EA text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1878 9EB text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1884 9F1 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1886 9FC text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1889 9FE text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1893 A02 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1895 A07 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1893 A12 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1900 A14 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1902 A1D text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1903 A23 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1904 A2D text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1906 A2F text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1904 A30 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1906 A32 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1907 A35 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1908 A38 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1911 A39 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1912 A3D text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1920 A41 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1921 A47 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1925 A51 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1926 A55 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1933 A58 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1940 A5C text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1946 A5F text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1960 A61 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1962 A65 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1966 A67 text4 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1992 A67 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1995 A68 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1992 A69 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1995 A6A text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1998 A7B text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2001 A85 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2006 A87 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2008 A88 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2009 A8E text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2006 A91 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2009 A92 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2006 A93 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2013 A97 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2016 AA2 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2018 AA4 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2021 AA7 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2022 AAA text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2025 AAB text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2028 AAE text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2031 AB1 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2032 AB4 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2036 AB5 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2041 AC2 text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2043 AC5 text11 CODE
+"C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c":18 AC6 text11 CODE
+"C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c":19 ACA text11 CODE
+"C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c":20 AD3 text11 CODE
+"C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c":19 ADE text11 CODE
+"C:\Program Files\Microchip\xc8\v1.20\sources\common\memset.c":22 ADF text11 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2064 ADF text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2066 AE4 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2068 AE7 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2074 AE8 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2076 AED text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2077 AF0 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2082 AF1 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2087 AF4 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2093 B01 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2094 B0C text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2095 B18 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2098 B19 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2105 B1C text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2108 B20 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2110 B2D text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2111 B34 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2068 B35 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2131 B41 text10 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":209 B42 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":214 B47 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":221 B4D text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":228 B54 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":229 B59 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":230 B5C text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":231 B5D text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":232 B5F text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":235 B60 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":242 B66 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":243 B6D text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":244 B6F text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":245 B70 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":246 B71 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":249 B72 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":253 B7C text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":256 B7D text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":223 B7F text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":317 B89 text22 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device_cdc.c":223 B8A swtext3 CONST
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2150 BD0 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2151 BD2 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2153 BD3 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2156 BD4 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2166 BD6 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2168 BD9 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2172 BDC text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2173 BDE text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2175 BDF text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2182 BE1 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2184 BE4 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2188 BEB text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2191 BF2 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2192 BFA text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2153 BFD text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2197 C08 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2199 C0B text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2201 C0D text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2199 C0E text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2200 C0F text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2201 C10 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2203 C11 text9 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/src/app_device_cdc_basic.c":44 C24 clrtext CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2621 EA5 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2624 EAD text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2629 EAF text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2631 EB3 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2632 EB8 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2634 EBB text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2638 EBD text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2643 EC0 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2645 EC2 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2646 ECD text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2652 ECF text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2656 ED4 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2657 EDA text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2658 EDD text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2661 EDE text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2663 EE1 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2664 EE7 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2665 EEA text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2668 EEB text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2669 EF1 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2678 EF5 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2680 EF8 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2682 EFB text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2684 EFE text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2687 F00 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":2692 F02 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1641 F03 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1647 F05 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1649 F08 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1651 F0B text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1662 F0E text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1664 F12 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1669 F13 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1670 F15 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1671 F16 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1678 F17 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1679 F1D text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1680 F27 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1681 F2B text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1682 F2E text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1683 F33 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1688 F37 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1690 F3A text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1704 F3D text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1706 F41 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1729 F43 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1730 F45 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1731 F46 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1733 F4A text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1748 F4C text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1751 F4F text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1752 F55 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1753 F5F text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1754 F63 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1509 F67 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1767 F67 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1510 F68 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1512 F69 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1515 F6E text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1516 F74 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1517 F7E text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1518 F82 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1519 F85 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1524 F86 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1526 F91 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1528 F98 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1533 F9A text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1534 FA6 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1535 FAA text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1537 FAD text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1796 FAE text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1797 FB0 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1799 FB8 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1806 FBA text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1808 FBE text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1809 FC0 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1810 FC1 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1812 FC3 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1818 FC5 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1823 FCA text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1827 FCF text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1828 FD2 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1832 FD6 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1833 FE6 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1830 FE7 text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1840 FEB text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1841 FFB text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1838 FFC text3 CODE
+"F:\WORK\Volkovets\MPLAB_projects\1-TestsMupad8/framework/usb/usb_device.c":1844 1000 text3 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__size_of_store_key_level 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBDeviceTasks 66A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+process_level@new_level 71 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+is_end_of_scan@scan_counter 16E 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_is_adc_ready 0 0 CODE 0 text45 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBStdFeatureReqHandler 8FC 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_SYS_InterruptHigh C 0 CODE 0 intentry dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBStdFeatureReqHandler@p 69 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__S0 8009 0 ABS 0 - -
+__S1 360 0 ABS 0 - -
+_RemoteWakeup 1B8 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_line_coding 1C6 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_inlined$_set_clock_and_data 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UIE E92 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_endpoint_number 16A 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_BDT 20 0 ABS 1 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UIR E90 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hintentry C 0 CODE 0 intentry -
+__Lintentry 8 0 CODE 0 intentry -
+__end_of_waiting_for_timer 0 0 CODE 0 text50 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_configDescriptor1 1290 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pintentry 8 0 CODE 0 intentry dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBEnableEndpoint@p 77 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_dummy_encapsulated_cmd_response 1BE 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UEP0 E98 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UEP1 E99 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_TMR0 15 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_scan_task 408 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UCFG E91 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UEIE E97 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBEnableEndpoint@ep 79 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_inlined$_set_timer 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UCON E8E 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UEIR E93 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBStdSetCfgHandler@i 7D 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBStdSetCfgHandler@p 7A 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USB_CD_Ptr 120A 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBCtrlEPAllowDataStage 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_scan_init 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+putrsUSBUSART@data 71 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+set_clock_and_data@c 72 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+set_clock_and_data@d 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBStallHandler D6A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_main 90 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_sd001 12F8 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_pDst 16B 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+btemp 7E 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_sd000 1384 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_sd001 1290 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_sd002 12F8 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+start C 0 CODE 0 init C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+_midiData 1AF 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_is_end_of_scan 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+LED_Enable@led 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBCtrlTrfTxService@byteToSend 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBDeferINDataStagePackets 163 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBBusIsSuspended 1B9 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_CDCTxService CDE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_APP_DeviceCDCBasicDemoInitialize 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_get_data 0 0 CODE 0 text48 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBWakeFromSuspend 7EE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+__size_of_USBWakeFromSuspend 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+store_key_level@end_of_scan 73 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UADDR E96 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USTAT E8F 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBCtrlTrfRxService@i 74 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hconfig 10012 0 CONFIG 0 config -
+__Lconfig 1000E 0 CONFIG 0 config -
+_store_key_level 0 0 CODE 0 text42 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_CDCDataInHandle 162 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBConfigureEndpoint@direction 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+LED_On@led 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBDeviceInit 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of__stringtab 1202 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbigram 0 0 ABS 0 bigram -
+__Lbigram 0 0 ABS 0 bigram -
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__end_of_USBCtrlTrfInHandler 1E06 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBIncrement1msInternalTimers 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_get_data 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+putUSBUSART@data 71 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_buttonMessage 1CF 0 BANK3 1 dataBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+_SetupPkt 50 0 ABS 1 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_process_level 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBTransferOnePacket D5A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_outPipes 1A0 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+_PIE1bits 91 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_pBDTEntryOut 1AC 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_PIE2bits 92 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_UEP0bits E98 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_get_adc 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBConfigureEndpoint 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_PIR2bits 12 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_putUSBUSART 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_LATCbits 10E 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_ANSELA 18C 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UCONbits E8E 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_process_level 0 0 CODE 0 text43 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_USBConfigureEndpoint 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_pBDTEntryEP0OutNext 6F 0 BANK0 1 bssBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_ADRESH 9C 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBStdSetCfgHandler@i_1837 7C 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_scan_init 440 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_OSCCON 99 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Labs1 0 0 ABS 0 abs1 -
+_ACTCON 39B 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBCtrlTrfSetupHandler 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Lsfr0 0 0 ABS 0 sfr0 -
+BUTTON_IsPressed@button 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+_USBDeferOUTDataStagePackets 164 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+_inlined$_run_adc 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+USBEnableEndpoint@options 74 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_APP_DeviceCDCBasicDemoInitialize AEE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBDeviceInit@i_1507 74 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_CDCTxService 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_BUTTON_IsPressed 440 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCtrlTrfSetupHandler 81C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBTransferOnePacket@data 71 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_sd002 1360 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+LED_Off@led 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_is_end_of_scan 0 0 CODE 0 text47 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBStdGetDscHandler 1684 0 CODE 0 text10 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+putrsUSBUSART@pData 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBDeviceTasks@i 1E1 0 BANK3 1 cstackBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_CDCInitEP B56 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_LED_On FAE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCtrlEPService E3E 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_memset 15BE 0 CODE 0 text11 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBDeviceInit@p 72 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBCtrlEPService 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_writeBuffer 2A0 0 BANK5 1 bssBANK5 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+__CFG_PLLMULT$3x 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_LED_Off 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__size_of_USBStallHandler 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hinit C 0 CODE 0 init -
+__Linit C 0 CODE 0 init -
+_memset 158C 0 CODE 0 text11 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_main B4 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USER_USB_CALLBACK_EVENT_HANDLER AEE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_is_initialized 1BC 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_scan_task$737 76 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Htext 0 0 ABS 0 text -
+__Ltext 0 0 ABS 0 text -
+__end_of_LED_Off FAE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlEPAllowDataStage 1F5C 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBStdFeatureReqHandler AB0 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_scan_task 18C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+end_of_initialization 8C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_BUTTON_IsPressed 462 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_cdc_trf_state E7 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+scan_task@note 7A 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__size_of_waiting_for_timer 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__stringtab 1200 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+scan_task@state 1BD 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__size_of_USBCtrlTrfOutHandler 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+_set_timer 0 0 CODE 0 text51 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBStdGetStatusHandler 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__end_of_BUTTON_Enable F0E 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__end_of_USBCtrlEPAllowStatusStage E3E 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+_APP_LEDUpdateUSBStatus F0E 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+CDCTxService@i 7A 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+_LED_Enable EE0 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_TRISAbits 8C 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_TRISCbits 8E 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_PORTAbits C 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_LED_Enable 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+__Lstrings 0 0 ABS 0 strings -
+__pstrings 1200 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_scan_init 408 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+process_level@idx_key 72 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCtrlEPServiceComplete 1E06 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_SYSTEM_Initialize 54A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_is_end_of_scan 0 0 CODE 0 text47 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_getsUSBUSART$2358 7B 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_set_clock_and_data 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_APP_DeviceCDCBasicDemoTasks 18C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlTrfSetupHandler 87C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBStdGetStatusHandler@p 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+SYSTEM_Initialize@state 71 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+scan_task@velocity 75 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Lbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Lbank1 0 0 ABS 0 bank1 -
+__size_of_putrsUSBUSART 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank2 0 0 ABS 0 bank2 -
+_SYS_InterruptHigh 8 0 CODE 0 intentry dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Lbank3 0 0 ABS 0 bank3 -
+___latbits 2 0 ABS 0 - C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+__Hbank4 0 0 ABS 0 bank4 -
+__Lbank4 0 0 ABS 0 bank4 -
+_USBCtrlTrfOutHandler 138C 0 CODE 0 text4 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank5 0 0 ABS 0 bank5 -
+__Lbank5 0 0 ABS 0 bank5 -
+__size_of_USBDeviceTasks 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_SYS_InterruptHigh 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+__Lpowerup 0 0 CODE 0 powerup -
+__Hbank6 0 0 ABS 0 bank6 -
+__Lbank6 0 0 ABS 0 bank6 -
+_USBStdSetCfgHandler 14CE 0 CODE 0 text11 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_cdc_mem_type 1BB 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_set_timer 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank7 0 0 ABS 0 bank7 -
+USBTransferOnePacket@ep 76 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+_device_dsc 1360 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Lbank9 0 0 ABS 0 bank9 -
+_USBAlternateInterface 1CD 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext1 66A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USTATcopy EF 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext2 E3E 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HdataBANK3 0 0 ABS 0 dataBANK3 -
+__LdataBANK3 0 0 ABS 0 dataBANK3 -
+__ptext3 1D4A 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCtrlEPAllowStatusStage DA4 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pdataBANK3 1CF 0 BANK3 1 dataBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext4 138C 0 CODE 0 text4 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext5 13D6 0 CODE 0 text4 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext6 81C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext7 87C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBDeviceInit 578 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext8 8FC 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+getsUSBUSART@len 78 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext9 17A0 0 CODE 0 text9 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+_USBSuspend 7CE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+_pBDTEntryEP0OutCurrent 6E 0 BANK0 1 bssBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBStdFeatureReqHandler 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlTrfOutHandler 13D6 0 CODE 0 text4 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBEnableEndpoint 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_scan_task$738 78 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_inlined$_is_adc_ready 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlEPServiceComplete 1ECE 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCtrlEPAllowDataStage 1ECE 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBSuspend 7EE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of__initialization 8C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+memset@c 72 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCtrlTrfInHandler 1D4A 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBTicksSinceSuspendEnd 1BA 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBStdSetCfgHandler 158C 0 CODE 0 text11 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USER_USB_CALLBACK_EVENT_HANDLER@event 60 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_buttonPressed 168 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBStdGetStatusHandler 1824 0 CODE 0 text9 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_LED_Off F92 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_pCDCSrc 1B5 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_memset 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+memset@n 74 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBWakeFromSuspend 81C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_get_adc 0 0 CODE 0 text44 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_run_adc 0 0 CODE 0 text46 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+memset@p 77 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+_ep_data_in 1A6 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lidloc 0 0 IDLOC 0 idloc -
+?_process_level 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_APP_DeviceCDCBasicDemoTasks B4 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_pCDCDst 1B3 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_device_dsc 1384 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_set_clock_and_data 0 0 CODE 0 text49 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_putUSBUSART 54A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+putrsUSBUSART@len 72 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+init_ram 1854 0 CODE 0 inittext dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBTransferOnePacket@handle 77 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+is_end_of_scan@res 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USB_CD_Ptr 1208 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCheckStdRequest 87C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_inPipes EA 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USB_SD_Ptr 1202 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_run_adc 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_cdc_rx_len E6 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_cdc_tx_len 169 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hcinit 0 0 ABS 0 cinit -
+__Lcinit 0 0 ABS 0 cinit -
+_UIEbits E92 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_memset 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_UIRbits E90 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_CDCTxService BE6 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+putUSBUSART@length 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_store_key_level 0 0 CODE 0 text42 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBIncrement1msInternalTimers D5A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_BORV$LO 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_set_clock_and_data 0 0 CODE 0 text49 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_inlined$_store_key_level 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_store_key_level 73 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_readBuffer 220 0 BANK4 1 bssBANK4 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_CtrlTrfData 58 0 ABS 1 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBStdGetDscHandler 15BE 0 CODE 0 text10 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_MCLRE$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_scan_task 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USER_USB_CALLBACK_EVENT_HANDLER AB0 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_shortPacketStatus 16C 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlTrfRxService 14CE 0 CODE 0 text4 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlTrfTxService 2000 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_scan_task 75 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBCtrlEPAllowStatusStage 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+clear_ram0 1848 0 CODE 0 clrtext dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBEnableEndpoint B94 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_set_clock_and_data 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+store_key_level@level 74 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+APP_DeviceCDCBasicDemoTasks@numBytesRead 62 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__Hbank10 0 0 ABS 0 bank10 -
+__pbssBANK0 6E 0 BANK0 1 bssBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Hpa_nodes 0 0 ABS 0 pa_nodes -
+__Lpa_nodes 0 0 ABS 0 pa_nodes -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__size_of_USBCtrlTrfRxService 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBCtrlTrfTxService 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank11 0 0 ABS 0 bank11 -
+APP_LEDUpdateUSBStatus@ledCount 160 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+APP_DeviceCDCBasicDemoTasks@i 63 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank21 0 0 BANK21 1 bank21 -
+__Lbank21 0 0 BANK21 1 bank21 -
+USBCtrlTrfInHandler@lastDTS 73 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank12 0 0 ABS 0 bank12 -
+__end_of_SYSTEM_Initialize 578 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBStatusStageEnabledFlag1 165 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank22 0 0 BANK22 1 bank22 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Lbank13 0 0 BANK13 1 bank13 -
+USBConfigureEndpoint@EPNum 72 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBEnableEndpoint B56 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__size_of_USBCtrlTrfInHandler 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pbssBANK1 E0 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lbank14 0 0 BANK14 1 bank14 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__end_of_get_adc 0 0 CODE 0 text44 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext10 15BE 0 CODE 0 text10 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank15 0 0 BANK15 1 bank15 -
+__Lbank15 0 0 BANK15 1 bank15 -
+_wait_timer 16D 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_set_timer 0 0 CODE 0 text51 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext20 7EE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+CDCTxService@byte_to_send 7B 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank25 0 0 BANK25 1 bank25 -
+__Lbank25 0 0 BANK25 1 bank25 -
+USBStdFeatureReqHandler@current_ep_data 68 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_waiting_for_timer 0 0 CODE 0 text50 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext11 14CE 0 CODE 0 text11 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext30 578 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank16 0 0 BANK16 1 bank16 -
+__Lbank16 0 0 BANK16 1 bank16 -
+_USBStatusStageEnabledFlag2 166 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext21 AB0 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext40 440 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank26 0 0 BANK26 1 bank26 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__CFG_CPUDIV$NOCLKDIV 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_inlined$_is_end_of_scan 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext12 158C 0 CODE 0 text11 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext31 54A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext50 0 0 CODE 0 text50 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank17 0 0 BANK17 1 bank17 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+__ptext22 1684 0 CODE 0 text22 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext41 18C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__size_of_USBCheckCDCRequest 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext13 1E06 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext32 EFC 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext51 0 0 CODE 0 text51 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank18 0 0 BANK18 1 bank18 -
+__pbssBANK2 160 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lbank18 0 0 BANK18 1 bank18 -
+USBTransferOnePacket@len 73 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_ADCON0bits 9D 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_ADCON1bits 9E 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext23 F0E 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext42 0 0 CODE 0 text42 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank28 0 0 BANK28 1 bank28 -
+__Lbank28 0 0 BANK28 1 bank28 -
+_ADCON2bits 9F 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext14 1ECE 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext33 EE0 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext52 408 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank19 0 0 BANK19 1 bank19 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__ptext24 FAE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext43 0 0 CODE 0 text43 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hbank29 0 0 BANK29 1 bank29 -
+__Lbank29 0 0 BANK29 1 bank29 -
+APP_DeviceCDCBasicDemoTasks@velocity 61 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext15 1F5C 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext34 B4 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBTransferOnePacket@dir 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext25 F92 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext44 0 0 CODE 0 text44 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_cdc_data_rx 120 0 ABS 1 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext16 DA4 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext35 BE6 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_APP_LEDUpdateUSBStatus F92 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HbssBANK3 0 0 ABS 0 bssBANK3 -
+__ptext26 AEE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext45 0 0 CODE 0 text45 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__LbssBANK3 0 0 ABS 0 bssBANK3 -
+__size_of_USBCheckStdRequest 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext17 D6A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext36 522 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pbssBANK3 1A0 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_ANSELAbits 18C 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext27 B0C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext46 0 0 CODE 0 text46 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_ANSELCbits 18E 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+BUTTON_Enable@button 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext18 D5A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext37 4A6 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext28 B56 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext47 0 0 CODE 0 text47 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_USBTransferOnePacket 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext19 7CE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext38 CDE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext29 B94 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext48 0 0 CODE 0 text48 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+APP_DeviceCDCBasicDemoTasks@scan_pitch 60 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__ptext39 462 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HbssBANK4 0 0 ABS 0 bssBANK4 -
+__ptext49 0 0 CODE 0 text49 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__LbssBANK4 0 0 ABS 0 bssBANK4 -
+_INTCONbits B 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+getsUSBUSART@buffer 7A 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_ep_data_out 1A9 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pbssBANK4 220 0 BANK4 1 bssBANK4 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_controlTransferState E8 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBCtrlEPServiceComplete 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hend_init 10 0 CODE 0 end_init -
+__Lend_init C 0 CODE 0 end_init -
+__end_of_USBConfigureEndpoint BE6 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBActiveConfiguration 16F 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pswtext1 FC8 0 CONST 0 swtext1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_waiting_for_timer$704 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_CDCDataOutHandle E3 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCtrlTrfRxService 13D6 0 CODE 0 text4 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_adc_levels 320 0 BANK6 1 bssBANK6 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_CDCTxService$2406 78 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_cdc_data_tx A0 0 ABS 1 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_pBDTEntryIn E0 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pswtext2 1000 0 CONST 0 swtext2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HbssBANK5 0 0 ABS 0 bssBANK5 -
+__LbssBANK5 0 0 ABS 0 bssBANK5 -
+_inlined$_get_data 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pbssBANK5 2A0 0 BANK5 1 bssBANK5 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_is_adc_ready 0 0 CODE 0 text45 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_process_level 0 0 CODE 0 text43 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_LED_On 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pswtext3 1714 0 CONST 0 swtext3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBDeferStatusStagePacket E4 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBStatusStageTimeoutCounter 167 0 BANK2 1 bssBANK2 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_inlined$_process_level 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pswtext4 11D4 0 CONST 0 swtext4 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBDeviceInit 66A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HbssBANK6 0 0 ABS 0 bssBANK6 -
+__LbssBANK6 0 0 ABS 0 bssBANK6 -
+__end_of_USBIncrement1msInternalTimers D6A 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+memset@p1 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hreset_vec 4 0 CODE 0 reset_vec -
+__pbssBANK6 320 0 BANK6 1 bssBANK6 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__HcstackBANK3 0 0 ABS 0 cstackBANK3 -
+__LcstackBANK3 0 0 ABS 0 cstackBANK3 -
+_inlined$_get_adc 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pcstackBANK3 1E1 0 BANK3 1 cstackBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_putrsUSBUSART 4A6 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_CDCInitEP B0C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_note_event 1B1 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBStdSetCfgHandler 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBStdGetDscHandler 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USB_SD_Ptr 1208 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USER_USB_CALLBACK_EVENT_HANDLER 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_getsUSBUSART 78 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_putrsUSBUSART 462 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_configDescriptor1 120A 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+intlevel1 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+intlevel2 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+intlevel3 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+__size_of_is_adc_ready 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCtrlTrfTxService 1F5C 0 CODE 0 text3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_getsUSBUSART 522 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBDeviceInit@i 75 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+intlevel4 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+__CFG_LPBOR$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBStdFeatureReqHandler@pUEP 66 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+intlevel5 0 0 CODE 0 functab C:\DOCUME~1\Pervakov\LOCALS~1\Temp\s4bg.obj
+__size_of_APP_DeviceCDCBasicDemoTasks 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_get_data 0 0 CODE 0 text48 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBSuspend 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_LED_On FC8 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+store_key_level@idx_key E9 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HidataBANK3 0 0 ABS 0 idataBANK3 -
+__LidataBANK3 0 0 ABS 0 idataBANK3 -
+USBConfigureEndpoint@handle 73 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__pidataBANK3 1824 0 CODE 0 idataBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBConfigureEndpoint B94 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+start_initialization 10 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_sd000 138C 0 STRING 0 strings dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_run_adc 0 0 CODE 0 text46 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_USBEnableEndpoint 74 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_getsUSBUSART 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_APP_LEDUpdateUSBStatus 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_BothEP0OutUOWNsSet 1B7 0 BANK3 1 bssBANK3 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBCtrlTrfRxService@byteToRead 75 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBTransferOnePacket CDE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_CDCInitEP 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_USBLSCLK$48MHz 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_LED_Enable EFC 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_getsUSBUSART 4A6 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_putUSBUSART 70 0 COMMON 1 cstackCOMMON dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Lmaintext 0 0 ABS 0 maintext -
+__CFG_IESO$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__pmaintext 90 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_PLLEN$ENABLED 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_OPTION_REGbits 95 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBCtrlEPService EE0 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Hinittext 0 0 ABS 0 inittext -
+__CFG_FOSC$INTOSC 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__Linittext 0 0 ABS 0 inittext -
+__size_of_BUTTON_IsPressed 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBStallHandler DA4 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBDeviceTasks 7CE 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_APP_DeviceCDCBasicDemoInitialize B0C 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__initialization 10 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_putUSBUSART 522 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBCheckCDCRequest 1714 0 CODE 0 text22 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBCheckCDCRequest 1684 0 CODE 0 text22 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBStdGetStatusHandler 17A0 0 CODE 0 text9 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_inlined$_waiting_for_timer 1 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__end_of_USBCheckStdRequest 8FC 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_BUTTON_Enable EFC 0 CODE 0 cinit dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+_USBDeviceState E5 0 BANK1 1 bssBANK1 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_USBTransferOnePacket 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+__size_of_BUTTON_Enable 0 0 ABS 0 - dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+USBCtrlEPService@setup_cnt 6C 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+?_USER_USB_CALLBACK_EVENT_HANDLER 60 0 BANK0 1 cstackBANK0 dist/LPCUSBDK_16F1459/production\MPLAB.X.production.obj
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+_BDT 1 20 30
+_CtrlTrfData 1 58 8
+_SetupPkt 1 50 8
+_cdc_data_tx 1 A0 40
+_cdc_data_rx 1 120 40
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta> <class name>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 2 2 CODE
+intentry 0 4 8 7E0 2 CODE
+config 0 8007 1000E 2 2 CONFIG
+cstackCOMMON 1 70 70 E 1 COMMON
+bssBANK4 1 220 220 40 1 BANK4
+bssBANK5 1 2A0 2A0 40 1 BANK5
+bssBANK6 1 320 320 40 1 BANK6
+bssBANK3 1 1A0 1A0 42 1 BANK3
+bssBANK1 1 E0 E0 10 1 BANK1
+bssBANK2 1 160 160 10 1 BANK2
+cstackBANK0 1 60 60 10 1 BANK0
+text3 0 EA5 1D4A 15B 2 CODE
+swtext2 0 800 1000 F6 2 CONST
+strings 0 900 1200 C6 2 STRING
+text4 0 9C6 138C 1C4 2 CODE
+swtext3 0 B8A 1714 46 2 CONST
+text9 0 BD0 17A0 60 2 CODE
+swtext1 0 7E4 FC8 1A 2 CONST
